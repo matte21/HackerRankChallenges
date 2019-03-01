@@ -1,7 +1,5 @@
 package solution
 
-// edge cases: len(s) > n, len(s) = 0, n = 0
-
 // Complete the repeatedString function below.
 // Time complexity: o(1), O(len(s)).
 // Space complexity: θ(1).
