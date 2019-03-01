@@ -1,6 +1,6 @@
 package solution
 
-// Complete the repeatedString function below.
+// Complete the RepeatedString function below.
 // Time complexity: o(1), O(len(s)).
 // Space complexity: θ(1).
 func RepeatedString(s string, n int64) int64 {
