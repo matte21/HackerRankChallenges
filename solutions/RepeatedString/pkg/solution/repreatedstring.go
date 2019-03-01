@@ -8,14 +8,14 @@ func RepeatedString(s string, n int64) int64 {
 		return 0
 	}
 
-	var aCounterInWholeRepetitions, aCounterInLeftover int64
+	var aCounterInS, aCounterInStump int64
 	for i, c := range s {
 		if c == 'a' {
-			aCounterInWholeRepetitions++
+			aCounterInS++
 			if int64(i) < (n % int64(len(s))) {
-				aCounterInLeftover++
+				aCounterInStump++
 			}
 		}
 	}
-	return aCounterInWholeRepetitions*(n/int64(len(s))) + aCounterInLeftover
+	return aCounterInS*(n/int64(len(s))) + aCounterInStump
 }
