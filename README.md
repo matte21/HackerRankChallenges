@@ -3,10 +3,10 @@
 This repo contains solutions to the challenges on HackerRank I am taking for fun
 and to prepare for interviews. Roughly one challenge a day will be added.
 
-Solutions are stored under `solutions/`. Each challenge has a root folder named
+Solutions are stored under [solutions/](solutions/). Each challenge has a root folder named
 after itself. Each of such folders contains the solution under
 `pkg/solution/<problem_name>.go`. For instance, the solution to the problem with
-name [SockMerchant](SockMerchant) is located under
+name [SockMerchant](solutions/SockMerchant) is located under
 [`solutions/SockMerchant/pkg/solution/sockmerchant.go`](solutions/SockMerchant/pkg/solution/sockmerchant.go).
 Under the root dir of each challenge there's a README with a link to the
 challenge statement and other information.
