@@ -43,8 +43,7 @@ if [ "$(uname)" == "Darwin" ]; then
     rm README.md.bak
   else
     echo "Updating the root README.md failed: restoring previous version from backup."
-    rm README.md
-    mv README.md.bak README.md
+    rm README.md && mv README.md.bak README.md
   fi
 else
   echo "WARNING: A link to the solution sub directory has not been automatically added. This is currently only supported in MAC OS X. Add the link manually."
