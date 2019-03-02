@@ -39,8 +39,10 @@ if [ "$(uname)" == "Darwin" ]; then
   sed -i.bak '/\* '$difficulty'/a\
   \ \ \* \['$solution_name'\](solutions\/'$solution_name')\
   ' README.md
-  if [[ $? -ne 0 ]]; then
-    echo "Updating the root README.md failed: restoring previous version from backup"
+  if [[ $? -eq 0 ]]; then
+    rm README.md.bak
+  else
+    echo "Updating the root README.md failed: restoring previous version from backup."
     rm README.md
     mv README.md.bak README.md
   fi
