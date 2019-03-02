@@ -18,6 +18,7 @@ space complexity.
 ## Solved challenges
 
 * easy
+  * [HourglassSum](solutions/HourglassSum)
   * [SockMerchant](solutions/SockMerchant)
   * [CountingValleys](solutions/CountValleys)
   * [JumpingOnClouds](solutions/JumpingOnClouds)
