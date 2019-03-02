@@ -17,13 +17,13 @@ space complexity.
 
 ## Solved challenges
 
-* Easy
+* easy
   * [SockMerchant](solutions/SockMerchant)
   * [CountingValleys](solutions/CountValleys)
   * [JumpingOnClouds](solutions/JumpingOnClouds)
   * [RepeatedString](solutions/RepeatedString)
-* Medium
-* Hard
+* medium
+* hard
 
 ## Support utils
 
