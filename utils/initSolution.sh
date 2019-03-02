@@ -17,12 +17,12 @@ if [ "$difficulty" != "easy" ] && [ "$difficulty" != "medium" ] && [ "$difficult
 fi
 
 # Init needed variables
-hacker_rank_challenges_dir=`dirname "$0"`
+hacker_rank_challenges_dir="`dirname "$0"`/.."
 solution_name="$1"
 solution_name_lc=`echo $solution_name | tr A-Z a-z`
 
 # Create dir hierarchy for the solution
-cd `dirname "$0"`/..
+cd $hacker_rank_challenges_dir
 mkdir -p "solutions/$solution_name/pkg/solution/"
 
 # Create the README.md
