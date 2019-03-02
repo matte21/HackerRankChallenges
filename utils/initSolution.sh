@@ -22,7 +22,7 @@ solution_name="$1"
 solution_name_lc=`echo $solution_name | tr A-Z a-z`
 
 # Create dir hierarchy for the solution
-cd $hacker_rank_challenges_dir
+cd "$hacker_rank_challenges_dir"
 mkdir -p "solutions/$solution_name/pkg/solution/"
 
 # Create the README.md
