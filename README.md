@@ -24,6 +24,7 @@ space complexity.
   * [JumpingOnClouds](solutions/JumpingOnClouds)
   * [RepeatedString](solutions/RepeatedString)
 * medium
+  * [RoadsAndLibraries](solutions/RoadsAndLibraries)
 * hard
 
 ## Support utils
